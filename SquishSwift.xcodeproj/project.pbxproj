@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351757B5237D21A500E830C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351757B4237D21A500E830C0 /* AppDelegate.swift */; };
+		351757B7237D21A500E830C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351757B6237D21A500E830C0 /* SceneDelegate.swift */; };
+		351757B9237D21A500E830C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351757B8237D21A500E830C0 /* ViewController.swift */; };
+		351757BC237D21A500E830C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351757BA237D21A500E830C0 /* Main.storyboard */; };
+		351757BE237D21A700E830C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351757BD237D21A700E830C0 /* Assets.xcassets */; };
+		351757C1237D21A700E830C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351757BF237D21A700E830C0 /* LaunchScreen.storyboard */; };
+		351757CC237D221000E830C0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351757CB237D221000E830C0 /* SignUpViewController.swift */; };
+		351757CE237D222200E830C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351757CD237D222200E830C0 /* LoginViewController.swift */; };
+		351757D0237D222F00E830C0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351757CF237D222F00E830C0 /* HomeViewController.swift */; };
+		351757DB237D290700E830C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351757D9237D290600E830C0 /* Constants.swift */; };
+		351757DC237D290700E830C0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351757DA237D290700E830C0 /* Utilities.swift */; };
+		351757E2237D515D00E830C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 351757E1237D515D00E830C0 /* GoogleService-Info.plist */; };
+		3539C8B5239FD725008E04AD /* RequestSupporterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3539C8B4239FD725008E04AD /* RequestSupporterViewController.swift */; };
+		356BC5E623A54DE3004B2D53 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5E523A54DE3004B2D53 /* RequestService.swift */; };
+		356BC5E823A5513B004B2D53 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5E723A5513B004B2D53 /* Request.swift */; };
+		356BC5EB23A5573C004B2D53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5EA23A5573C004B2D53 /* User.swift */; };
+		356BC5ED23A55895004B2D53 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5EC23A55895004B2D53 /* UserService.swift */; };
+		356BC5F423A70494004B2D53 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5F323A70494004B2D53 /* RequestsViewController.swift */; };
+		356BC5F623A72F91004B2D53 /* RequestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5F523A72F91004B2D53 /* RequestCollectionViewCell.swift */; };
+		356BC5F823A8B550004B2D53 /* AppointmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5F723A8B550004B2D53 /* AppointmentService.swift */; };
+		356BC5FB23A8B718004B2D53 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5FA23A8B718004B2D53 /* AppointmentsViewController.swift */; };
+		356BC5FE23A8B9D8004B2D53 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5FD23A8B9D8004B2D53 /* Appointment.swift */; };
+		356BC60023A8BA1F004B2D53 /* AppointmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BC5FF23A8BA1F004B2D53 /* AppointmentCollectionViewCell.swift */; };
+		356C6134239F44C4004F98CF /* Supporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C6133239F44C4004F98CF /* Supporter.swift */; };
+		356C6136239F4C3D004F98CF /* FindSupporterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C6135239F4C3D004F98CF /* FindSupporterViewController.swift */; };
+		356C613B239F51CF004F98CF /* FinderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C613A239F51CF004F98CF /* FinderService.swift */; };
+		356C613D239F6DC9004F98CF /* SupporterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C613C239F6DC9004F98CF /* SupporterTableViewCell.swift */; };
+		356C6141239F712E004F98CF /* SupporterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356C6140239F712E004F98CF /* SupporterCollectionViewCell.swift */; };
+		35900824238DD80A0008CF7E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35900823238DD80A0008CF7E /* Schedule.swift */; };
+		35900827238E09440008CF7E /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35900825238E09440008CF7E /* ScheduleTableViewCell.swift */; };
+		35900828238E09440008CF7E /* ScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35900826238E09440008CF7E /* ScheduleTableViewCell.xib */; };
+		3590082A238E13530008CF7E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35900829238E13530008CF7E /* Extensions.swift */; };
+		35BA8B4C239751AB0025C36C /* AppointmentConcernViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BA8B4B239751AB0025C36C /* AppointmentConcernViewController.swift */; };
+		35BA8B4E239760250025C36C /* AppointmentDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BA8B4D239760250025C36C /* AppointmentDateViewController.swift */; };
+		35F2DC8A2383D39F009F8971 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2DC892383D39F009F8971 /* ForgotPasswordViewController.swift */; };
+		35F2DC8E2386A51D009F8971 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2DC8D2386A51C009F8971 /* OnboardingViewController.swift */; };
+		35F2DC8F2386E0BF009F8971 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2DC8B238643AD009F8971 /* ProfileViewController.swift */; };
+		35F2DC93238A4EBE009F8971 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2DC92238A4EBE009F8971 /* DateCell.swift */; };
+		35F2DC95238A4FF7009F8971 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2DC94238A4FF7009F8971 /* CalendarViewController.swift */; };
+		35F2DC99238BB6C4009F8971 /* DateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2DC98238BB6C4009F8971 /* DateHeader.swift */; };
+		D67E1ACC9148695287FF9E74 /* Pods_SquishSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE9339315673CB48A7DA30F /* Pods_SquishSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03EBFDBBF079917107075C61 /* Pods-SquishSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquishSwift.release.xcconfig"; path = "Target Support Files/Pods-SquishSwift/Pods-SquishSwift.release.xcconfig"; sourceTree = "<group>"; };
+		1DE9339315673CB48A7DA30F /* Pods_SquishSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquishSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		351757B1237D21A500E830C0 /* SquishSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquishSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		351757B4237D21A500E830C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		351757B6237D21A500E830C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		351757B8237D21A500E830C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		351757BB237D21A500E830C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		351757BD237D21A700E830C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		351757C0237D21A700E830C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		351757C2237D21A700E830C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351757CB237D221000E830C0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		351757CD237D222200E830C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		351757CF237D222F00E830C0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		351757D9237D290600E830C0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		351757DA237D290700E830C0 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		351757E1237D515D00E830C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3539C8B4239FD725008E04AD /* RequestSupporterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSupporterViewController.swift; sourceTree = "<group>"; };
+		356BC5E523A54DE3004B2D53 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		356BC5E723A5513B004B2D53 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		356BC5EA23A5573C004B2D53 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		356BC5EC23A55895004B2D53 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		356BC5F323A70494004B2D53 /* RequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		356BC5F523A72F91004B2D53 /* RequestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCollectionViewCell.swift; sourceTree = "<group>"; };
+		356BC5F723A8B550004B2D53 /* AppointmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentService.swift; sourceTree = "<group>"; };
+		356BC5FA23A8B718004B2D53 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		356BC5FD23A8B9D8004B2D53 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		356BC5FF23A8BA1F004B2D53 /* AppointmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		356C6133239F44C4004F98CF /* Supporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supporter.swift; sourceTree = "<group>"; };
+		356C6135239F4C3D004F98CF /* FindSupporterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindSupporterViewController.swift; sourceTree = "<group>"; };
+		356C613A239F51CF004F98CF /* FinderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderService.swift; sourceTree = "<group>"; };
+		356C613C239F6DC9004F98CF /* SupporterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupporterTableViewCell.swift; sourceTree = "<group>"; };
+		356C6140239F712E004F98CF /* SupporterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupporterCollectionViewCell.swift; sourceTree = "<group>"; };
+		35900823238DD80A0008CF7E /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		35900825238E09440008CF7E /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		35900826238E09440008CF7E /* ScheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		35900829238E13530008CF7E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		35BA8B4B239751AB0025C36C /* AppointmentConcernViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentConcernViewController.swift; sourceTree = "<group>"; };
+		35BA8B4D239760250025C36C /* AppointmentDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDateViewController.swift; sourceTree = "<group>"; };
+		35F2DC892383D39F009F8971 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		35F2DC8B238643AD009F8971 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		35F2DC8D2386A51C009F8971 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		35F2DC92238A4EBE009F8971 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		35F2DC94238A4FF7009F8971 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		35F2DC98238BB6C4009F8971 /* DateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeader.swift; sourceTree = "<group>"; };
+		6A4EAF529FD694D5C4BD94EA /* Pods-SquishSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquishSwift.debug.xcconfig"; path = "Target Support Files/Pods-SquishSwift/Pods-SquishSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		351757AE237D21A500E830C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67E1ACC9148695287FF9E74 /* Pods_SquishSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4666563C26236B25E00A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE9339315673CB48A7DA30F /* Pods_SquishSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3506D7F123977CF6003B4E74 /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				356C6133239F44C4004F98CF /* Supporter.swift */,
+				356C613C239F6DC9004F98CF /* SupporterTableViewCell.swift */,
+				356C6140239F712E004F98CF /* SupporterCollectionViewCell.swift */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+		351757A8237D21A500E830C0 = {
+			isa = PBXGroup;
+			children = (
+				351757B3237D21A500E830C0 /* SquishSwift */,
+				351757B2237D21A500E830C0 /* Products */,
+				9FD2F2A60D08E8F1D8636328 /* Pods */,
+				2E4666563C26236B25E00A35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		351757B2237D21A500E830C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				351757B1237D21A500E830C0 /* SquishSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351757B3237D21A500E830C0 /* SquishSwift */ = {
+			isa = PBXGroup;
+			children = (
+				351757B4237D21A500E830C0 /* AppDelegate.swift */,
+				351757B6237D21A500E830C0 /* SceneDelegate.swift */,
+				35900829238E13530008CF7E /* Extensions.swift */,
+				356C6137239F517B004F98CF /* Services */,
+				356BC5E923A556E9004B2D53 /* User */,
+				3506D7F123977CF6003B4E74 /* Finder */,
+				356BC5E423A54D45004B2D53 /* Request */,
+				356BC5FC23A8B9B6004B2D53 /* Appointment */,
+				35900822238DCD340008CF7E /* Schedule */,
+				3563ED362383495B00ACFA75 /* Calendar */,
+				351757D4237D22DB00E830C0 /* Helpers */,
+				351757D2237D223E00E830C0 /* View Controllers */,
+				351757BA237D21A500E830C0 /* Main.storyboard */,
+				351757BD237D21A700E830C0 /* Assets.xcassets */,
+				351757E1237D515D00E830C0 /* GoogleService-Info.plist */,
+				351757BF237D21A700E830C0 /* LaunchScreen.storyboard */,
+				351757C2237D21A700E830C0 /* Info.plist */,
+			);
+			path = SquishSwift;
+			sourceTree = "<group>";
+		};
+		351757D2237D223E00E830C0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				351757B8237D21A500E830C0 /* ViewController.swift */,
+				356BC5F923A8B6C3004B2D53 /* Appointments */,
+				356BC5F223A70466004B2D53 /* Requests */,
+				356BC5EF23A703BD004B2D53 /* Account */,
+				356BC5EE23A70394004B2D53 /* Calendar */,
+				356BC5F123A70431004B2D53 /* Dashboard */,
+				356BC5F023A703E1004B2D53 /* Finder */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		351757D4237D22DB00E830C0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				351757D9237D290600E830C0 /* Constants.swift */,
+				351757DA237D290700E830C0 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3563ED362383495B00ACFA75 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				35F2DC92238A4EBE009F8971 /* DateCell.swift */,
+				35F2DC98238BB6C4009F8971 /* DateHeader.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		356BC5E423A54D45004B2D53 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				356BC5E723A5513B004B2D53 /* Request.swift */,
+				356BC5F523A72F91004B2D53 /* RequestCollectionViewCell.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		356BC5E923A556E9004B2D53 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				356BC5EA23A5573C004B2D53 /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		356BC5EE23A70394004B2D53 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				35F2DC94238A4FF7009F8971 /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		356BC5EF23A703BD004B2D53 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				35F2DC892383D39F009F8971 /* ForgotPasswordViewController.swift */,
+				351757CD237D222200E830C0 /* LoginViewController.swift */,
+				351757CB237D221000E830C0 /* SignUpViewController.swift */,
+				35F2DC8D2386A51C009F8971 /* OnboardingViewController.swift */,
+				351757CF237D222F00E830C0 /* HomeViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		356BC5F023A703E1004B2D53 /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				35BA8B4B239751AB0025C36C /* AppointmentConcernViewController.swift */,
+				35BA8B4D239760250025C36C /* AppointmentDateViewController.swift */,
+				356C6135239F4C3D004F98CF /* FindSupporterViewController.swift */,
+				3539C8B4239FD725008E04AD /* RequestSupporterViewController.swift */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+		356BC5F123A70431004B2D53 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				35F2DC8B238643AD009F8971 /* ProfileViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		356BC5F223A70466004B2D53 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				356BC5F323A70494004B2D53 /* RequestsViewController.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		356BC5F923A8B6C3004B2D53 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				356BC5FA23A8B718004B2D53 /* AppointmentsViewController.swift */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		356BC5FC23A8B9B6004B2D53 /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				356BC5FD23A8B9D8004B2D53 /* Appointment.swift */,
+				356BC5FF23A8BA1F004B2D53 /* AppointmentCollectionViewCell.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		356C6137239F517B004F98CF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				356C613A239F51CF004F98CF /* FinderService.swift */,
+				356BC5E523A54DE3004B2D53 /* RequestService.swift */,
+				356BC5EC23A55895004B2D53 /* UserService.swift */,
+				356BC5F723A8B550004B2D53 /* AppointmentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		35900822238DCD340008CF7E /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				35900823238DD80A0008CF7E /* Schedule.swift */,
+				35900825238E09440008CF7E /* ScheduleTableViewCell.swift */,
+				35900826238E09440008CF7E /* ScheduleTableViewCell.xib */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		9FD2F2A60D08E8F1D8636328 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A4EAF529FD694D5C4BD94EA /* Pods-SquishSwift.debug.xcconfig */,
+				03EBFDBBF079917107075C61 /* Pods-SquishSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		351757B0237D21A500E830C0 /* SquishSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 351757C5237D21A700E830C0 /* Build configuration list for PBXNativeTarget "SquishSwift" */;
+			buildPhases = (
+				44F481C186E20624260981BF /* [CP] Check Pods Manifest.lock */,
+				351757AD237D21A500E830C0 /* Sources */,
+				351757AE237D21A500E830C0 /* Frameworks */,
+				351757AF237D21A500E830C0 /* Resources */,
+				B3E90E5F8F878EB0A4E28190 /* [CP] Embed Pods Frameworks */,
+				095653208C469D055A94C5B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquishSwift;
+			productName = SquishSwift;
+			productReference = 351757B1237D21A500E830C0 /* SquishSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		351757A9237D21A500E830C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Andrew Hong";
+				TargetAttributes = {
+					351757B0237D21A500E830C0 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 351757AC237D21A500E830C0 /* Build configuration list for PBXProject "SquishSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 351757A8237D21A500E830C0;
+			productRefGroup = 351757B2237D21A500E830C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				351757B0237D21A500E830C0 /* SquishSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		351757AF237D21A500E830C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351757C1237D21A700E830C0 /* LaunchScreen.storyboard in Resources */,
+				351757E2237D515D00E830C0 /* GoogleService-Info.plist in Resources */,
+				351757BE237D21A700E830C0 /* Assets.xcassets in Resources */,
+				351757BC237D21A500E830C0 /* Main.storyboard in Resources */,
+				35900828238E09440008CF7E /* ScheduleTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		095653208C469D055A94C5B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquishSwift/Pods-SquishSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquishSwift/Pods-SquishSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SquishSwift/Pods-SquishSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44F481C186E20624260981BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SquishSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3E90E5F8F878EB0A4E28190 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquishSwift/Pods-SquishSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquishSwift/Pods-SquishSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SquishSwift/Pods-SquishSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		351757AD237D21A500E830C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351757B9237D21A500E830C0 /* ViewController.swift in Sources */,
+				351757B5237D21A500E830C0 /* AppDelegate.swift in Sources */,
+				35F2DC99238BB6C4009F8971 /* DateHeader.swift in Sources */,
+				35900824238DD80A0008CF7E /* Schedule.swift in Sources */,
+				35F2DC8F2386E0BF009F8971 /* ProfileViewController.swift in Sources */,
+				3539C8B5239FD725008E04AD /* RequestSupporterViewController.swift in Sources */,
+				351757CC237D221000E830C0 /* SignUpViewController.swift in Sources */,
+				35900827238E09440008CF7E /* ScheduleTableViewCell.swift in Sources */,
+				35F2DC93238A4EBE009F8971 /* DateCell.swift in Sources */,
+				356BC60023A8BA1F004B2D53 /* AppointmentCollectionViewCell.swift in Sources */,
+				35BA8B4E239760250025C36C /* AppointmentDateViewController.swift in Sources */,
+				356BC5F423A70494004B2D53 /* RequestsViewController.swift in Sources */,
+				351757CE237D222200E830C0 /* LoginViewController.swift in Sources */,
+				351757DB237D290700E830C0 /* Constants.swift in Sources */,
+				356BC5FB23A8B718004B2D53 /* AppointmentsViewController.swift in Sources */,
+				35BA8B4C239751AB0025C36C /* AppointmentConcernViewController.swift in Sources */,
+				356BC5FE23A8B9D8004B2D53 /* Appointment.swift in Sources */,
+				351757B7237D21A500E830C0 /* SceneDelegate.swift in Sources */,
+				356C6141239F712E004F98CF /* SupporterCollectionViewCell.swift in Sources */,
+				356C613B239F51CF004F98CF /* FinderService.swift in Sources */,
+				356BC5ED23A55895004B2D53 /* UserService.swift in Sources */,
+				356BC5E823A5513B004B2D53 /* Request.swift in Sources */,
+				356BC5F823A8B550004B2D53 /* AppointmentService.swift in Sources */,
+				35F2DC8A2383D39F009F8971 /* ForgotPasswordViewController.swift in Sources */,
+				356BC5F623A72F91004B2D53 /* RequestCollectionViewCell.swift in Sources */,
+				356C6134239F44C4004F98CF /* Supporter.swift in Sources */,
+				351757DC237D290700E830C0 /* Utilities.swift in Sources */,
+				356BC5EB23A5573C004B2D53 /* User.swift in Sources */,
+				356C613D239F6DC9004F98CF /* SupporterTableViewCell.swift in Sources */,
+				35F2DC8E2386A51D009F8971 /* OnboardingViewController.swift in Sources */,
+				356C6136239F4C3D004F98CF /* FindSupporterViewController.swift in Sources */,
+				3590082A238E13530008CF7E /* Extensions.swift in Sources */,
+				356BC5E623A54DE3004B2D53 /* RequestService.swift in Sources */,
+				35F2DC95238A4FF7009F8971 /* CalendarViewController.swift in Sources */,
+				351757D0237D222F00E830C0 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		351757BA237D21A500E830C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351757BB237D21A500E830C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		351757BF237D21A700E830C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				351757C0237D21A700E830C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		351757C3237D21A700E830C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		351757C4237D21A700E830C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		351757C6237D21A700E830C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4EAF529FD694D5C4BD94EA /* Pods-SquishSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SQKF873A5;
+				INFOPLIST_FILE = SquishSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squishsupport.squishapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		351757C7237D21A700E830C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EBFDBBF079917107075C61 /* Pods-SquishSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3SQKF873A5;
+				INFOPLIST_FILE = SquishSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squishsupport.squishapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		351757AC237D21A500E830C0 /* Build configuration list for PBXProject "SquishSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351757C3237D21A700E830C0 /* Debug */,
+				351757C4237D21A700E830C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		351757C5237D21A700E830C0 /* Build configuration list for PBXNativeTarget "SquishSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				351757C6237D21A700E830C0 /* Debug */,
+				351757C7237D21A700E830C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 351757A9237D21A500E830C0 /* Project object */;
+}

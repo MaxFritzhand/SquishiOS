@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>913421183980-2vb7ldgcjtos0cshs95gbuh7taq8gk0i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.913421183980-2vb7ldgcjtos0cshs95gbuh7taq8gk0i</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBCkTO2IjqzrRjkk019SI68YxiopjUfuss</string>
+	<key>GCM_SENDER_ID</key>
+	<string>913421183980</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.squishswiftandrew.SquishSwift</string>
+	<key>PROJECT_ID</key>
+	<string>squish-swift</string>
+	<key>STORAGE_BUCKET</key>
+	<string>squish-swift.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:913421183980:ios:0f0edf32996ca81405eec9</string>
+	<key>DATABASE_URL</key>
+	<string>https://squish-swift.firebaseio.com</string>
+</dict>
+</plist>
